@@ -1,0 +1,154 @@
+* {
+   font-family: 'Shadows Into Light Two', cursive;
+   /*color: white;*/
+}
+nav a {
+  display: inline;
+  text-decoration: none;
+  /*font-style: oblique;*/
+  /*color: #F3Fae8;*/
+  margin-left: 275px;
+  text-align: center;
+  /*width: 100%;*/
+  font-size: 18px;
+  color: black;
+}
+
+body {
+  background-color: #90C8D4;
+  /*background-color: black;*/
+}
+
+.headContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.whitecat {
+  max-width: 40%;
+  max-height: 40%;
+  margin-top: -30px;
+}
+
+.whitecat2 {
+  max-width: 40%;
+  max-height: 40%;
+  margin-top: -30px;
+  /*-ms-transform: rotate(35deg); /* IE 9 */
+  /*-webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */*/
+  /*transform: rotate(35deg);*/
+}
+
+.whitecat:hover {
+  -ms-transform: scale(1.5,1.5); /* IE 9 */
+   -webkit-transform: scale(1.5,1.5); /* Chrome, Safari, Opera */
+   transform: scale(1.5,1.5);
+}
+
+.whitecat2:hover {
+  -ms-transform: scale(1.5,1.5); /* IE 9 */
+   -webkit-transform: scale(1.5,1.5); /* Chrome, Safari, Opera */
+   transform: scale(1.5,1.5);
+}
+
+#countdownCounter {
+  font-size: 100px;
+  text-align: center;
+  color: red;
+  margin-top: -125px;
+}
+
+.startButton {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+#gameClock {
+  font-size: 100px;
+  text-align: center;
+  color: Green;
+  margin-top: -240px;
+}
+
+#instructions {
+font-family: 'Shadows Into Light Two', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.shadows {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 3px;
+  /*margin-left: 250px;
+  margin-right: 250px;*/
+}
+
+/*css for about us animation*/
+.flip-container {
+  perspective: 1000;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 185px;
+  height: 357px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  background-color: black;
+  padding: 5px;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flex container for about us pics*/
+.rowOneContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.rowTwoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-around;
+}
