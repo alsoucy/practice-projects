@@ -7,9 +7,14 @@
     <title>KITTY COUNTER</title>
   </head>
   <header class="headContainer">
-    <img class="whitecat" src="whitecat.png" alt="" />
+    <!-- sound on mouseover -->
+    <img class="whitecat" src="images/kittyimg1small.png" alt="" />
+    <p onmouseover="PlaySound('meowsound')" onmouseout="StopSound('meowsound')"></p>
+    <audio id="meowsound" src="audio/kitten.mp3"></audio>
     <p class="shadows">Kitty Counter!</p>
-    <img class="whitecat2" src="whitecat.png" alt="" />
+    <img class="whitecat2" src="images/kittyimg1small.png" alt="" />
+    <p onmouseover="PlaySound('meowsound2')" onmouseout="StopSound('meowsound2')"></p>
+    <audio id="meowsound2" src="audio/kitten.mp3"></audio>
   </header>
   <hr>
   <nav>
@@ -27,6 +32,7 @@
       <p id="countdownCounter"></p>
     </div>
     <p id="gameClock"></p>
-    <script type="text/javascript" script src ="app.js"></script>
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src ="app.js"></script>
   </body>
 </html>
