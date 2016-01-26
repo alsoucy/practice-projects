@@ -60,7 +60,7 @@ var button = document.getElementById('startGame');
 startGame.addEventListener('click', handleCountdown);
 startGame.addEventListener('click', handleGameClock);
 startGame.addEventListener('click', hideInstructions);
-
+//audio on hover
 var audio = document.getElementById("meowsound");
 audio.play();
 var audio = $("#meowsound")[0];
