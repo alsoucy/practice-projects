@@ -76,3 +76,7 @@ text-align: center;
   font-size: 100%;
   color: purple;
 }
+#kittyCanvas {
+  position: absolute;
+  z-index: -1;
+}
