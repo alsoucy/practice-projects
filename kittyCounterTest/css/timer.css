@@ -1,16 +1,20 @@
 
 #countdownCounter {
+  font-family: Tahoma, sans-serif;
   font-size: 100px;
   text-align: center;
   color: red;
   margin:1%;
   padding:0%;
+  margin-top: -100px;
 }
 
 #gameClock {
+  font-family: Tahoma, sans-serif;
   font-size: 100px;
   text-align: center;
   color: Green;
   margin:1%;
   padding:0%;
+  margin-top: -100px;
 }

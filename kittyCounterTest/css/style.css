@@ -1,9 +1,10 @@
 
 /*changes the section within the header to a flexbox for all html pages*/
 .kittyTitle {
+  width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   align-items: center;
 }
@@ -54,6 +55,7 @@ width: 50%;
 height: auto;
 padding: 1%;
 margin: 1%;
+text-align: center;
 }
 #startGame {
   box-shadow: 0px 0px 8px black;

@@ -42,7 +42,6 @@
 
 /*flex container for about us pics*/
 .rowOneContainer {
-  width: 100%;
   display: flex;
   flex-direction: row;
   display: inline-flex;
