@@ -1,0 +1,16 @@
+
+#countdownCounter {
+  font-size: 100px;
+  text-align: center;
+  color: red;
+  margin:1%;
+  padding:0%;
+}
+
+#gameClock {
+  font-size: 100px;
+  text-align: center;
+  color: Green;
+  margin:1%;
+  padding:0%;
+}
