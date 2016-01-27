@@ -55,16 +55,11 @@ body {
    transform: scale(1.5,1.5);
 }
 
-#countdownCounter {
-  font-size: 100px;
-  text-align: center;
-  color: red;
-  margin-top: -125px;
-}
 
 .startButton {
   text-align: center;
 }
+
 
 button {
   width: 150px;
@@ -74,11 +69,27 @@ button {
   font-family: 'Shadows Into Light Two', cursive;
 }
 
+.timerContainer {
+  /*width: 100%;*/
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#countdownCounter {
+  font-size: 100px;
+  text-align: center;
+  color: red;
+  position: absolute;
+  z-index: 1;
+}
+
 #gameClock {
   font-size: 100px;
   text-align: center;
   color: Green;
-  margin-top: -240px;
+  position: absolute;
+  z-index: 2;
 }
 
 #instructions {

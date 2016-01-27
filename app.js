@@ -28,15 +28,15 @@ var handleCountdown = function(){
 //game timer
 var handleGameClock = function() {
   (function() {
-    var gameCounter = 25;
+    var gameCounter = 15;
     setInterval(function() {
       gameCounter--;
       var gameClock = document.getElementById('gameClock');
       gameClock.innerHTML = gameCounter;
-      if (gameCounter > 20) {
+      if (gameCounter > 10) {
         gameClock.style.visibility = 'hidden';
         };
-      if (gameCounter === 20) {
+      if (gameCounter === 10) {
         gameClock.style.visibility = 'visible'
       }
       if (gameCounter === 0) {
