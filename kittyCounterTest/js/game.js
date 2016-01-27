@@ -35,6 +35,9 @@ function questionRandomizer(event) {
   if (answer === (randomNumber1 + randomNumber2)) {
     console.log('Great job!');
     kittyCounter += 1;
+//sound if answer correct
+    var audio = new Audio('audio/kitten.mp3');
+    audio.play();
     event.target.answer.value = null;
     localStorage.setItem('scorePersist',JSON.stringify(kittyCounter));
     getRandomNumber();
