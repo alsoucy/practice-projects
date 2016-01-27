@@ -125,16 +125,14 @@ startGame.addEventListener('click', handleCountdown);
 startGame.addEventListener('click', handleGameClock);
 startGame.addEventListener('click', hideInstructions);
 
-var canvas = document.getElementById('kittyCanvas'),
-context = canvas.getContext('2d');
-
-make_base();
-
-function make_base()
-{
-  base_image = new Image();
-  base_image.src = 'img/kittyimg1.jpg';
-  base_image.onload = function(){
-    context.drawImage(base_image, 100, 100);
-  }
-}
+// var canvas = document.getElementById('kittyCanvas'),
+// context = canvas.getContext('2d');
+//
+// // var img1 = new Image();
+// // img1.src = 'img/kittyimg1.jpg';
+//
+// var img = new Image();   // Create new img element
+// img.addEventListener("load", function() {
+//   context.drawImage(img, 100, 200);
+// }, false);
+// img.src = 'img/kittyimg1.jpg';
