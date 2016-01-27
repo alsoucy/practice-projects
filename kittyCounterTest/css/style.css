@@ -1,3 +1,9 @@
+#kittyCanvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
 /*changes the section within the header to a flexbox for all html pages*/
 .kittyTitle {
@@ -35,6 +41,7 @@ section#gameInput {
   align-content: center;
   border-radius: 15px;
   box-shadow: 0px 0px 10px black;
+  z-index: 2px;
 }
 p#printQuestion {
   font-size: 400%;
@@ -75,8 +82,4 @@ text-align: center;
 #scoreLink {
   font-size: 100%;
   color: purple;
-}
-#kittyCanvas {
-  position: absolute;
-  z-index: -1;
 }
