@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/headernav.css">
+    <link type="text/css" rel="stylesheet" href="css/timer.css">
+    <title>KITTY COUNTER</title>
+  </head>
+  <header>
+    <!--  whtiecat images Needs Flexbox Styling-->
+    <section class="kittyTitle">
+    <img class="whitecat" src="whitecat.png" alt="" />
+    <h1 class="shadows">Kitty Counter!</h1>
+    <img class="whitecat2" src="whitecat.png" alt="" />
+    </section>
+    <hr>
+    <nav>
+      <ul class="navstyle">
+        <li class="active"><a href="index.html">GAME</a></li>
+        <li><a href="score.html">SCORE</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+  <body>
+    <section class="howToPlay">
+    <p id="instructions">
+      Play <b>Kitty Counter</b>!<br>You will have 20 seconds to answer as many simple addition problems as you can.<br>For each correct answer you earn a <b>kitty</b>!
+    </p>
+    <div class="startButton">
+      <button id="startGame" type="button" name="Start Game">Start Game</button>
+      <p id="countdownCounter"></p>
+    </div>
+   </section>
+    <p id="gameClock"></p>
+
+<!--  The Q and A form and printing -->
+    <section id="gameInput">
+    <p id="printQuestion">
+
+    </p>
+    <form id="submitAnswer">
+    <label for="answer" type="text">Answer</label>
+    <input id="answer" type="text" maxlength="15" autocomplete="off">
+    </form>
+   </section>
+   <a href ="score.html" id="scoreLink">A-meow-zing! Click Here for Total Kitty Count!</a>
+   <script type="text/javascript" src ="js/game.js"></script>
+  </body>
+</html>
